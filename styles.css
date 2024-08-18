@@ -28,3 +28,8 @@ button:hover {
 .hidden {
   display: none;
 }
+
+.place-holder-img {
+  height: 250px;
+  width: 250px;
+}
