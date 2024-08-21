@@ -27,7 +27,7 @@ function countDown() {
     + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
 
     // If the count down is finished, write some text
-    if (distance < 0) {
+    if (distance > 0) {
       clearInterval(x);
       document.getElementById("count-down-container").style.display = "none";
       showAfterCountDown()
